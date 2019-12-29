@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>kubik</title>
+	<link rel="stylesheet" type="text/css" href="kub.css">
+
+	
+</head>
+<body>
+	<div class="zad">
+	<div class="kubik">
+		<div class="kub">
+			<div class="side fr">
+			  <div class="calkul">
+			  	<form name="form"><input class="item input"type="text" name="textview" readonly></form>
+
+                <input class="item" onclick="insert('1')" type="button" value="1">
+                <input class="item" onclick="insert('2')" type="button" value="2">
+                <input class="item" onclick="insert('3')" type="button" value="3">
+                <input class="item" onclick="insert('4')" type="button" value="4">
+                <input class="item" onclick="insert('5')" type="button" value="5">
+                <input class="item" onclick="insert('6')" type="button" value="6">
+                <input class="item" onclick="insert('7')" type="button" value="7">	
+                <input class="item" onclick="insert('8')" type="button" value="8">
+                <input class="item" onclick="insert('9')" type="button" value="9">
+                <input class="item" onclick="insert('0')" type="button" value="0">
+                <input class="item" onclick="insert('*')" type="button" value="*">
+                <input class="item plus" onclick="insert('+')" type="button" value="+">
+                <input class="item" onclick="insert('-')" type="button" value="-">
+                <input class="item" onclick="insert('/')" type="button" value="/">
+                <input class="item rovno" onclick="result('=')" type="button" value="=">
+                <input class="item" onclick="insert('.')" type="button" value=".">
+                <input class="item" onclick="insert('(')" type="button" value="(">
+                <input class="item" onclick="insert(')')" type="button" value=")">
+                <input class="item back" onclick="back('')" type="button" value="назад">
+                <input class="item clean" onclick="clean('')" type="button" value="C">	
+               		
+			  </div>	
+			</div>
+			<div class="side ba"><img class="fot"></div>
+			<div class="side ri"><img class="fot"></div>
+			<div class="side le"><img class="fot"></div>
+			<div class="side to"><img class="fot"></div>
+			<div class="side bo"><img class="fot"></div>	
+		</div>
+	
+		
+	</div>
+
+	</div>
+
+   <!--  <div class="foto">
+     
+     	<div><img class="fotB"></div>
+     	<div><img class="fotB bbb"></div>
+     	
+     </div> 
+    -->
+	<!-- <canvas id="bol"></canvas> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r83/three.js"></script>
+   
+	<script src="kub.js"></script>
+</body>
+</html>
