@@ -1,2 +1,0 @@
-# vkomarov.github.io
-работа
